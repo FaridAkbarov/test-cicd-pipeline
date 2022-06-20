@@ -5,6 +5,9 @@ pipeline {
     dockerImage = ""
   }
 
+  my_database_conn = 192.168.10.100:5346
+  my_database_password = Password123
+  my_database_name = dbname-user
   agent any
 
   stages {
